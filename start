@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+pug -Pw -O src/data/data.js -o dist src/pages/

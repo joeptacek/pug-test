@@ -1,0 +1,8 @@
+//- layout file needs to include pageVars block at top so that page-specific variables are available throughout
+//- i.e., not availabile if initially declared in content block
+block pageVars
+html
+  head
+    title #{siteTitle} | #{pageTitle}
+  body
+    block content
